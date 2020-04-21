@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Welcome to A No Storyboard iOS app
 
-You can use the [editor on GitHub](https://github.com/cptdanko/iOSNoStoryboardDataFeed/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This app shows how to create an iOS app that consumes json data from an external url and displays that in a UITableView. The app doesn't use a storyboard and instead constructs it's entire UI in Swift code.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Some properties of it
 
-### Markdown
+It has the following properties 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- it uses NSURLSession to query the external url
+- uses JSONDecoder to parse data into native Swift objects
+- lazy loads image for a feed item
+- dynamically adjusts the height of each row displaying the feed based on feed item length
+- bypasses ATS
+- reads a local json file for the feed when no internet access
 
-```markdown
-Syntax highlighted code block
+### A more beginner friendly example to create iOS UI in code
+This project is a little overwhelming for new comers and I fully understand that, hence I have written a more beginner friendly tutorial for creating iOS UI in code [here check it out](https://mydaytodo.com/ios-app-no-storyboard-how-to/).
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cptdanko/iOSNoStoryboardDataFeed/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Find it useful? For more useful info, checkout my [blog](https://mydaytodo.com/blog) and if you'd like to support me, you can try one of my [apps](https://mydaytodo.com/apps)
