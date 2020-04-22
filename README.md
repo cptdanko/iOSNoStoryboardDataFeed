@@ -4,8 +4,7 @@ This app shows how to create an iOS app that consumes json data from an external
 
 ### Some properties of it
 
-It has the following properties 
-
+- the entire UI is built in code without Storyboards or SwiftUI
 - it uses NSURLSession to query the external url
 - uses JSONDecoder to parse data into native Swift objects
 - lazy loads image for a feed item
